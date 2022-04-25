@@ -1,15 +1,16 @@
-sum = 0
-20.times do
-  sum += 1
-  if sum%15.0 == 0
+def fizzbuzz(sum)
+sum += 1
+  if sum % 15 == 0
     puts "FizzBuzz"
-    next
-  elsif sum%3.0 == 0
+  elsif sum % 3 == 0
     puts "Fizz"
-    next
-  elsif sum%5.0 == 0
+  elsif sum % 5 == 0
     puts "Buzz"
-    next
-  end
+  else
   puts sum
+  end
+end
+
+20.times do |sum|
+fizzbuzz(sum)
 end
