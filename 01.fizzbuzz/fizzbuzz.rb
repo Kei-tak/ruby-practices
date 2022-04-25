@@ -7,7 +7,7 @@ sum += 1
   elsif sum % 5 == 0
     puts "Buzz"
   else
-  puts sum
+    puts sum
   end
 end
 
